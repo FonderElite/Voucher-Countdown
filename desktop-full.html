@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <link rel="shortcut icon" href="https://elearnsecurity.com/wp-content/uploads/eJPT.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"> 
+<title>Voucher Giveaway</title>
+        <style>
+        
+        /*EJPT description*/
+        #ejpt{
+   position: absolute;
+width: 35%;
+ left: 30%;
+background-color:2B0505;
+padding: 25px;
+
+}
+#edesc{
+   text-shadow: 0px 0px 0px white;
+   color: white;
+   font-family: 'poppins';
+   border-radius: 20px;
+  font-size: 3vh;
+  word-spacing: 2px;
+ background: #510828;
+ border: 1px solid grey;
+}
+.star{
+    position: absolute;
+    width: 3%;
+    height: 5%;
+}
+#star1{
+    left: 30%;
+}
+#star2{
+    left: 62.2%;
+}
+#star3{
+    left: 30%;
+    top: 80%;
+}
+#star4{
+    left: 62%;
+    top: 80%;
+
+}
+        /*EJPT end description*/
+              #pp2{
+position: absolute;
+width: 15%;
+height: 25%;
+top: 22%;
+left: 65%;
+  }
+  #pp3{
+position: absolute;
+width: 15%;
+height: 25%;
+top: 22%;
+left: 14%;
+  }
+  ul{
+      position:absolute;
+      top: 20%;
+      left: 24.5%;
+  }
+ #headline{
+    color: white;
+    text-shadow: 0px 0px 10px 15px white;
+    position: absolute;
+    top: 10%;
+    left: 29%;
+  }
+#pp{
+  position: absolute;
+  width: 15%;
+  height: 30%;
+  border-radius:80px;
+  left: 0%;
+  top: 0%;
+}
+li{
+  color: white;
+}
+/* general styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0px 0px 2px cyan;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #512828;
+  color: white;
+  display: flex;
+  font-family: -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", 
+    Roboto, 
+    Oxygen-Sans, 
+    Ubuntu, 
+    Cantarell, 
+    "Helvetica Neue", 
+    sans-serif;
+}
+
+.container {
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.message {
+  font-size: 4rem;
+  display: none;
+  padding: 1rem;
+}
+
+.emoji {
+  padding: 0 .25rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  li {
+    font-size: 1.125rem;
+    padding: .75rem;
+  }
+  
+  li span {
+    font-size: 3.375rem;
+  }
+
+
+}
+
+/*Mobile Responsive*/
+ @media keyframes(max-width:768px){
+body{
+    display: none;
+}
+ }
+            </style>
+        </head>
+            <body>
+<div class="container">
+  <h1 id="headline">EJPT Voucher Giveaway:</h1>
+<!--<img id="pp" src="https://pbs.twimg.com/profile_images/1068232511602466816/zC_Xsvui_400x400.jpg">-->
+<img id="pp" src="https://actualtom.com/wp-content/uploads/2020/05/image-1.png">
+  <img id="pp2" src="https://webstockreview.net/images/clipart-present-animation-7.gif">
+   <img id="pp3" src="https://webstockreview.net/images/clipart-present-animation-7.gif">
+  <div id="countdown">
+    <ul>
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
+  <div class="message">
+    <div id="content">
+      <span class="emoji">🥳</span>
+      <span class="emoji">🎉</span>
+      <span class="emoji">🎂</span>
+    </div>
+  </div>
+  <div id="ejpt">
+      <p id="edesc">The eLearnSecurity Junior Penetration Tester (eJPT) is a 100% practical certification on penetration testing and information security essentials. By passing the exam, a cyber security professional proves to employers they are ready for a rewarding new career.</p>
+</div>
+<img class="star" id="star1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Star%2A.svg/1117px-Star%2A.svg.png">
+<img class="star" id="star2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Star%2A.svg/1117px-Star%2A.svg.png">
+<img class="star" id="star3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Star%2A.svg/1117px-Star%2A.svg.png">
+<img class="star" id="star4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Star%2A.svg/1117px-Star%2A.svg.png">
+<script>
+(function () {
+  const second = 1000,
+        minute = second * 60,
+       hour = minute * 60,
+        day = hour * 24;
+
+  let stateDate = "Sep 30, 2021 00:00:00",
+      countDown = new Date(stateDate).getTime(),
+      x = setInterval(function() {    
+
+        let now = new Date().getTime(),
+            distance = countDown - now;
+
+          document.getElementById("days").innerText = Math.floor(distance / (day)),
+        hours_count =   document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+        //do something later when date is reached
+        if(hours_count < 12){
+            document.getElementById('pp').src = "https://pbs.twimg.com/profile_images/1068232511602466816/zC_Xsvui_400x400.jpg";
+            document.getElementById('headline').innerText = "TryHackMe Voucher Giveaway";
+             headlinePosition =  document.getElementById('headline').style.left = "25%";
+             document.getElementsByTagName('body')[0].style.background = "#282828";
+             document.getElementById('edesc').innerText = "TryHackMe is an online platform that teaches cyber security through short, gamified real-world labs. We have content for both complete beginners and seasoned hackers, encorporating guides and challenges to cater for different learning styles.";
+             document.getElementById('star3').style.top = "84%";
+              document.getElementById('star4').style.top = "84%";
+              document.getElementById('ejpt').style.background = "#282727";
+              document.getElementById('edesc').style.background = "#141313";
+        }
+        if (distance < 0) {
+          let headline = document.getElementById("headline"),
+              countdown = document.getElementById("countdown"),
+              content = document.getElementById("content");
+
+          headline.innerText = "Voucher Countdown Ended!";
+          countdown.style.display = "none";
+          content.style.display = "block";
+
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+    </script>
+</body>
+<html>

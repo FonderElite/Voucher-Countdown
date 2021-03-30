@@ -1,0 +1,164 @@
+/*EJPT description*/   
+#ejpt{
+   position: absolute;
+width: 35%;
+ left: 30%;
+background-color:2B0505;
+padding: 25px;
+
+}
+#edesc{
+   text-shadow: 0px 0px 0px white;
+   color: white;
+   font-family: 'poppins';
+   border-radius: 20px;
+  font-size: 3vh;
+  word-spacing: 2px;
+ background: #510828;
+ border: 1px solid grey;
+}
+.star{
+    position: absolute;
+    width: 3%;
+    height: 5%;
+}
+#star1{
+    left: 30%;
+}
+#star2{
+    left: 62.2%;
+}
+#star3{
+    left: 30%;
+    top: 80%;
+}
+#star4{
+    left: 62%;
+    top: 80%;
+
+}
+        /*EJPT end description*/
+              #pp2{
+position: absolute;
+width: 15%;
+height: 25%;
+top: 22%;
+left: 65%;
+  }
+  #pp3{
+position: absolute;
+width: 15%;
+height: 25%;
+top: 22%;
+left: 14%;
+  }
+  ul{
+      position:absolute;
+      top: 20%;
+      left: 24.5%;
+  }
+ #headline{
+    color: white;
+    text-shadow: 0px 0px 10px 15px white;
+    position: absolute;
+    top: 10%;
+    left: 29%;
+  }
+#pp{
+  position: absolute;
+  width: 15%;
+  height: 30%;
+  border-radius:80px;
+  left: 0%;
+  top: 0%;
+}
+li{
+  color: white;
+}
+/* general styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0px 0px 2px cyan;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #512828;
+  color: white;
+  display: flex;
+  font-family: -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", 
+    Roboto, 
+    Oxygen-Sans, 
+    Ubuntu, 
+    Cantarell, 
+    "Helvetica Neue", 
+    sans-serif;
+}
+
+.container {
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.message {
+  font-size: 4rem;
+  display: none;
+  padding: 1rem;
+}
+
+.emoji {
+  padding: 0 .25rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  li {
+    font-size: 1.125rem;
+    padding: .75rem;
+  }
+  
+  li span {
+    font-size: 3.375rem;
+  }
+
+
+}
+
+/*Mobile Responsive*/
+ @media keyframes(max-width:768px){
+body{
+    display: none;
+}
+ }

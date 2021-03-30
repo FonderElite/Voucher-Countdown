@@ -22,12 +22,12 @@ a reference of the time left till it is over.
 # Amazing Open-Source From Neutron Nation!
 **Open-Source Repos:**
 *Github User: ItsJeffersonLi*
-https://github.com/itsjeffersonli/AD-CheatSheet
-https://github.com/itsjeffersonli/Kali-Metapackages
+https://github.com/itsjeffersonli/AD-CheatSheet <br>
+https://github.com/itsjeffersonli/Kali-Metapackages <br>
 
 *Github User: WarenGonzaga*
-https://github.com/WarenGonzaga/fork-corner
-https://github.com/WarenGonzaga/wifi-passview
-https://github.com/WarenGonzaga/googlemotanga
+https://github.com/WarenGonzaga/fork-corner <br>
+https://github.com/WarenGonzaga/wifi-passview <br>
+https://github.com/WarenGonzaga/googlemotanga <br>
 
 >Wag Tanga e google mo!
